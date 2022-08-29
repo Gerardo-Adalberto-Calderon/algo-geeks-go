@@ -8,8 +8,6 @@ import (
 
 func main() {
 	arr := []int{8, 13, 1, -2, 0, 5, 9, 294, 24, 68, 23}
-
-	sorted := sorting.MergeSort(arr)
-
+	sorted := sorting.QuickSort(arr)
 	fmt.Println(sorted)
 }
